@@ -55,3 +55,24 @@ function createBookTable(myLibrary) {
 }
 
 createBookTable(myLibrary);
+
+const dialog = document.querySelector("dialog");
+
+function openDialog() {
+    dialog.showModal();
+}
+
+function closeDialog() {
+    dialog.close();
+}
+
+document.getElementById("addBook").addEventListener("click", openDialog);
+document.getElementById("cancel").addEventListener("click", closeDialog);
+
+const submit = document.getElementById('submit');
+
+function submitBook() {
+    
+}
+
+submit.addEventListener("click", addBookToLibrary);

@@ -27,3 +27,24 @@ button {
     text-align: center;
     padding-bottom: 10px;
 }
+
+.cancel {
+    margin-top: 20px;
+    background-color: brown;
+}
+
+.submit {
+    background-color: rgb(1, 105, 44);
+    color: white;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form input {
+    margin-bottom: 1em;
+}
